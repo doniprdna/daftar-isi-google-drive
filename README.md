@@ -2,7 +2,8 @@
 berikut adalah script yang  digunakan untuk membuat daftar isi folder/file yang ada dalam google drive
 
 copy paste script di bawah ini:
-```function enumerateDriveContents() {
+```
+function enumerateDriveContents() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   sheet.clear(); // Hapus konten lama di sheet
   sheet.setColumnWidths(1, 25, 225); // Set lebar kolom ke 225 untuk kolom 1 sampai 25
